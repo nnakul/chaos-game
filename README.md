@@ -3,4 +3,10 @@ The project contains simulations of various chaos games that generate a fractal.
 
 As the game reaches higher and higher count of iterations, the fractal becomes more and more prominent and sharp. Though a familiar figure can be spotted just after a few thousands of iterations, it is only after millions of iterations (here achieved in about 8 minutes) that an extremely sharp fractal is formed, too sharp for the successive iterations to produce any visible change.
 
-*Note that these estimates naturally depend on the size of the polygon (or width of the GUI window). These are deduced from a polygon of a particular size as used in the program.*
+*Note that these estimations naturally depend on the size of the polygon (or width of the GUI window). These are deduced from a polygon of a particular size as used in the program.*
+
+# CONTENTS
+The project contains simulations for eight fractals including Sierpinski Triangle, Sierpinski Carpet, T-Square and Vicsek fractal. The last file named *Copy_Generator* contains the code of the fractal that I find the most interesting. It asks the user to draw something on the window and when the user instructs the start of the chaos game; the simulation creates infinte number of copies of the drawing on the screen of variable sizes, smaller than the size of the drawing. As stated earlier, the game might take a few minutes to produce a sufficiently sharp fractal. At first few thousands of iterations the fractal might be too blurred (or incomplete) to seem complex and similar at different levels of magnification; but after enough number of iterations it will appear as sharp as it can be on that scale.
+
+# EXPERIENCE
+It is extremely satisfying to watch that how a symmetrical self-similar pattern is created by randomly placed points inside a polygon on introducing some constraints. The fractals produced through these simulations can be used (upon scaling and resizing) in graphics and animation. The project is obviously less about the Mathematical aspects of *Chaos Theory* and more about directly applying its construction recipes to produce some very complex graphics.
